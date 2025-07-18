@@ -1,0 +1,19 @@
+name: ATEC
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - git+https://github.com/open-mmlab/mmyolo.git@dev-1.x
+      - mmengine
+      - mmdet
+      - numpy
+      - opencv-python
+      - matplotlib
+      - tqdm
+      - torch
+      - torchvision
+      - ultralytics
