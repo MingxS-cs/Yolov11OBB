@@ -1,4 +1,4 @@
-# 🍌 Banana Classification with YOLOv11-OBB
+# Classification with YOLOv11-OBB
 
 This project uses a pretrained **YOLOv11-OBB (Oriented Bounding Box)** model to classify and localize bananas in an image. It contains:
 
